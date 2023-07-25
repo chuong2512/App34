@@ -1,0 +1,828 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de118c01cd375348bc5b06db5d3937a, type: 3}
+  m_Name: "S\u1EA3n Ph\u1EA9m"
+  m_EditorClassIdentifier: 
+  name: 
+  infor: "App \u0111\u1ED3 g\u1ED1m"
+  folderPath: Assets/App34
+  SanPham:
+  - ID: 0
+    anh: {fileID: 21300000, guid: beaa19372140b4c40afa837ca5a1a37a, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "690.000 \u0111"
+    name: 
+  - ID: 1
+    anh: {fileID: 21300000, guid: 340b7ac9163331a4da7db985e430eda1, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "19.000.000 \u0111"
+    name: 
+  - ID: 2
+    anh: {fileID: 21300000, guid: 377ed4904dcf16a42a64fd9104ea1488, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "780.000 \u0111"
+    name: 
+  - ID: 3
+    anh: {fileID: 21300000, guid: 33307b0fc8d08f34a91edf4f60cfd1c8, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "930.000 \u0111"
+    name: 
+  - ID: 4
+    anh: {fileID: 21300000, guid: 0cb675877f500ac4285a068e1b4997d4, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "920.000 \u0111"
+    name: 
+  - ID: 5
+    anh: {fileID: 21300000, guid: 696ff40777e4f284895b6aa7229d4d74, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "4.000.000 \u0111"
+    name: 
+  - ID: 6
+    anh: {fileID: 21300000, guid: 66aa4bf51ec03ad448f2f89b286c3ff3, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "10.000.000 \u0111"
+    name: 
+  - ID: 7
+    anh: {fileID: 21300000, guid: 20fe7094d8c2dcc4d8f5d2d15a36b8b2, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "10.000.000 \u0111"
+    name: 
+  - ID: 8
+    anh: {fileID: 21300000, guid: 8740c54ee95f4384e8a9392dcad7e2d3, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "11.000.000 \u0111"
+    name: 
+  - ID: 9
+    anh: {fileID: 21300000, guid: e38b87da338561f44ad46157f19d1a54, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "350.000 \u0111"
+    name: 
+  - ID: 10
+    anh: {fileID: 21300000, guid: ac1ad2bafcf0fd94185ef91fa147e161, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "4.000.000 \u0111"
+    name: 
+  - ID: 11
+    anh: {fileID: 21300000, guid: 35d1278f7357c1c4b85fc25bfdb07be6, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "810.000 \u0111"
+    name: 
+  - ID: 12
+    anh: {fileID: 21300000, guid: cfa2630e654d1604cb7a7ff895d0438d, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "6.000.000 \u0111"
+    name: 
+  - ID: 13
+    anh: {fileID: 21300000, guid: 3e3c43d63d4ec6e408f14a4679aaa16c, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "19.000.000 \u0111"
+    name: 
+  - ID: 14
+    anh: {fileID: 21300000, guid: de704612e11002c42a690656b71ae0ed, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: "Thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n, sang tr\u1ECDng v\xE0 \u0111\u1EB3ng
+      c\u1EA5p S\u1EDF h\u1EEFu thi\u1EBFt k\u1EBF c\u1ED5 \u0111i\u1EC3n quen thu\u1ED9c
+      v\u1EDBi nh\u1EEFng h\u1ECDa ti\u1EBFt, hoa v\u0103n \u0111\u01B0\u1EE3c \u0111\u1EE5c
+      ch\u1EA1m m\u1ED9t c\xE1ch c\u1EA7u k\u1EF3 v\xE0 t\u1EC9 m\u1EC9. C\xE1c \u0111\u01B0\u1EDDng
+      n\xE9t \u0111\u01B0\u1EE3c l\xE0m m\u1EC1m \u1EDF ph\u1EA7n l\u01B0ng v\xE0
+      vai gh\u1EBF mang \u0111\u1EBFn c\u1EA3m gi\xE1c \u01B0a nh\xECn v\xE0 \u0111\u1EB9p
+      h\u01A1n cho b\u1ED9 salon g\u1ED7 xoan \u0111\xE0o. C\xE1c chi ti\u1EBFt d\xF9
+      l\xE0 nh\u1ECF nh\u1EA5t \u0111\u1EC1u \u0111\u01B0\u1EE3c ho\xE0n thi\u1EC7n
+      m\u1ED9t c\xE1ch c\xE2n \u0111\u1ED1i v\xE0 c\u1EA9n th\u1EADn \u0111\u1EC3
+      mang \u0111\u1EBFn v\u1EBB \u0111\u1EB9p h\xE0i h\xF2a v\xE0 c\xE2n b\u1EB1ng
+      cho s\u1EA3n ph\u1EA9m. \u0110\u1EB7c bi\u1EC7t l\xE0 c\xE1c v\u1ECB tr\xED
+      c\u1EA7n \u0111\u01B0\u1EE3c ch\xFA \xFD nhi\u1EC1u nh\u01B0 l\u01B0ng gh\u1EBF
+      v\xE0 \u0111\u1EC9nh gh\u1EBF ng\u1ED3i. \u0110\u1EC9nh gh\u1EBF \u0111\u01B0\u1EE3c
+      ch\u1EA1m \u0111\xE0o ph\xFAc l\u1ED9c mang \u0111\u1EBFn may m\u1EAFn v\xE0
+      tr\u01B0\u1EDDng th\u1ECD cho gia ch\u1EE7, l\u01B0ng gh\u1EBF ch\u1EA1m hoa
+      mai ph\xFA qu\xFD l\xE0 nh\u1EEFng bi\u1EC3u t\u01B0\u1EE3ng mang \u0111\u1EBFn
+      s\u1EF1 th\u1ECBnh v\u01B0\u1EE3ng v\xE0 may m\u1EAFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      Ngo\xE0i vi\u1EC7c \u0111\u1EB7t mua v\u1EC1 \u0111\u1EC3 s\u1EED d\u1EE5ng
+      kh\xE1ch h\xE0ng c\xF3 th\u1EC3 d\xF9ng \u0111\u1EC3 l\xE0m qu\xE0 t\u1EB7ng
+      cho b\u1EA1n b\xE8, ng\u01B0\u1EDDi th\xE2n c\u1EE7a m\xECnh trong nh\u1EEFng
+      d\u1ECBp quan tr\u1ECDng nh\u01B0 t\xE2n gia thay nh\u1EEFng l\u1EDDi ch\xFAc
+      t\u1ED1t \u0111\u1EB9p nh\u1EA5t \u0111\u1EBFn cho m\u1ECDi ng\u01B0\u1EDDi.
+      C\xE1c ph\u1EA7n ph\u1EE5 nh\u01B0 m\u1EB7t gh\u1EBF sau, l\u01B0ng gh\u1EBF
+      hay g\u1EA7m gh\u1EBF, g\u1EA7m b\xE0n \u0111\u1EC1u \u0111\xE3 \u0111\u01B0\u1EE3c
+      \u0111\xE1nh b\xF3ng ho\xE0n to\xE0n s\u1EA1ch s\u1EBD, lo\u1EA1i b\u1ECF ho\xE0n
+      to\xE0n c\xE1c v\u1EBFt h\u01B0 h\u1EA1i hay d\u01B0 th\u1EEBa trong qu\xE1
+      tr\xECnh ch\u1EBF t\xE1c. \u0110\u1EA3m b\u1EA3o s\u1EF1 ho\xE0n h\u1EA3o v\xE0
+      b\xF3ng b\u1EA9y nh\u1EA5t c\xF3 th\u1EC3 cho b\u1ED9 m\u1EB7t ph\xF2ng kh\xE1ch
+      c\u1EE7a b\u1EA1n trong qu\xE1 tr\xECnh s\u1EED d\u1EE5ng. \u01AFu \u0111i\u1EC3m
+      v\u1EC1 ch\u1EA5t l\u01B0\u1EE3ng s\u1EA3n ph\u1EA9m M\u1ED9t b\u1ED9 salon
+      g\u1ED7 t\u1EF1 nhi\xEAn g\u1ED3m 6 m\xF3n, tay 12 l\xE0m b\u1EB1ng g\u1ED7
+      xoan \u0111\xE0o v\u1EDBi m\u1EE9c gi\xE1 d\u01B0\u1EDBi 15 tri\u1EC7u \u0111\u1ED3ng
+      s\u1EBD l\xE0 l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi cho kh\xE1ch h\xE0ng.
+      D\xF9 kh\xF4ng ph\u1EA3i l\xE0 ch\u1EA5t li\u1EC7u g\u1ED7 th\u1EF1c s\u1EF1
+      xu\u1EA5t s\u1EAFc nh\u01B0 c\u0103m xe, g\xF5 \u0111\u1ECF, c\u1EA9m th\u1ECB,
+      tr\u1EAFc, g\u1EE5... G\u1ED7 xoan \u0111\xE0o t\u1EF1 nhi\xEAn v\u1EABn l\xE0
+      lo\u1EA1i g\u1ED7 \u0111\u01B0\u1EE3c \u0111\xE1nh gi\xE1 cao v\u1EC1 b\u1ED9
+      b\u1EC1n v\xE0 v\xE2n g\u1ED7 kh\xE1 b\u1EAFt m\u1EAFt. N\u1EBFu b\u1EA1n \u0111ang
+      nh\u1EAFm \u0111\u1EBFn m\u1ED9t s\u1EA3n ph\u1EA9m c\xF3 th\u1EC3 s\u1EED
+      d\u1EE5ng \u0111\u01B0\u1EE3c t\u1EEB 15 - 20 n\u0103m m\xE0 v\u1EABn \u0111\u1EA1t
+      ch\u1EA5t l\u01B0\u1EE3ng t\u1ED1t th\xEC g\u1ED7 xoan \u0111\xE0o ch\xEDnh
+      l\xE0 m\u1ED9t l\u1EF1a ch\u1ECDn tuy\u1EC7t v\u1EDDi d\xE0nh cho nh\u1EEFng
+      m\xF3n \u0111\u1ED3 n\u1ED9i th\u1EA5t c\u1EE7a b\u1EA1n. V\u1EDBi b\u1ED9
+      b\xE0n gh\u1EBF n\xE0y kh\xE1ch h\xE0ng ho\xE0n to\xE0n c\xF3 th\u1EC3 y\xEAn
+      t\xE2m v\u1EC1 c\xE1c d\u1EA5u hi\u1EC7u x\u1EA5u c\u1EE7a th\u1EDDi ti\u1EBFt
+      t\xE1c \u0111\u1ED9ng n\xEAn s\u1EA3n ph\u1EA9m v\u1EDBi kh\u1EA3 n\u0103ng
+      ch\u1ED1ng \u1EA9m m\u1ED1c v\xE0 cong v\xEAnh r\u1EA5t t\u1ED1t. D\u1EC5 s\u1EED
+      d\u1EE5ng, lau ch\xF9i v\xE0 v\u1EC7 sinh m\xE0 kh\xF4ng l\xE0m \u1EA3nh h\u01B0\u1EDFng
+      \u0111\u1EBFn l\u1EDBp s\u01A1n b\xEAn ngo\xE0i."
+    gia: "2.000.000 \u0111"
+    name: 
